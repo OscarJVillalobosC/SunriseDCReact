@@ -7,21 +7,33 @@ export const TEAMS = [
     },
     {
       id: 1,
-      name: 'JEAO',
-      image: 'images/JEAO.jpg',
-      description: "Spend a few sunny days and starry nights beneath a canopy of old-growth firs at this enchanting spot by the Chrome River."
+      name: 'Transformative Justice',
+      image: 'images/TransformativeJustice.jpeg',
+      description: "As we believe in abolition of prisons of police we make sure use Transmortative Justice as a means to resolve conflict."
     },
     {
         id: 2,
         name: 'Trainings',
         image: 'images/Trainings.jpg',
-        description: "Trains the hub on Sunrise DNA, skills, movement theory, and much more!"
+        description: "Trainings are part of Sunrise DNA, skills, movement theory, and much more!"
     },
     {
         id: 3,
         name: 'People Power',
-        image: 'images/PeoplePower.jpg',
+        image: 'images/Escalations.jpg',
         description: "Recruits, welcomes, and retains hub members as we build to millions!"
+    },
+    {
+        id: 4,
+        name: 'Mutual Aid',
+        image: 'images/MutualAid.jpg',
+        description: "Building Community by making sure our members have their material needs are being met."
+    },
+    {
+        id: 5,
+        name: 'Actions',
+        image: 'images/Actions.jpg',
+        description: "We Mobilize our hub members and community to demand politicans work for us instead of special interests"
     }
 ];
     

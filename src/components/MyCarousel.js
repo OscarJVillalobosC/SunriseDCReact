@@ -7,18 +7,13 @@ import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCa
 const items = [
     {
         src: 'images/CCCSunrise.jpg',
-        altText: 'Slide 1',
-        caption: 'Slide 1'
     },
     {
-        src: 'images/Housing.jpg',
-        altText: 'Slide 2',
-        caption: 'Slide 2'
+        src: 'images/OurTime.jpg',
     },
     {
         src:'images/SunriseWakeUp.jpg',
-        altText: 'Slide 3',
-        caption: 'Slide 3'
+
     }
 ];
 
@@ -64,8 +59,8 @@ const MyCarousel = () => {
         >
             <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
             {slides}
-            <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-            <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+            <CarouselControl />
+            <CarouselControl />
         </Carousel>
     );
 }

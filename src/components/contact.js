@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button, Form, FormGroup, Label, Input, Col, CardHeader } from 'reactstrap';
+import { Container, Card,  CardBody,  Button, Form, FormGroup, Label, Input, Col, CardHeader } from 'reactstrap';
 
 function Contact() {
   return (
@@ -9,15 +9,21 @@ function Contact() {
           <CardHeader className="warning"><h3>Contact our Teams!</h3></CardHeader>
           <CardBody>
             <dl className="row">
-              <dt className="col-6">Email </dt>
-              <dd className="col-6">Correo</dd>
+              <dt className="col-6">Actions</dt>
+              <dd className="col-6">actions@dc.smvmt.org</dd>
+              <dt className="col-6">Media</dt>
+              <dd className="col-6">media@dc.smvmt.org</dd>
+              <dt className="col-6">Political</dt>
+              <dd className="col-6">political@dc.smvmt.org</dd>
+              <dt className="col-6">Ops</dt>
+              <dd className="col-6">ops@dc.smvmt.org</dd>
             </dl>
           </CardBody>
         </Card>
       </Container>
       <Container>
         <Card>
-          <CardHeader><h3>Fill out the form below and we’ll be in touch!</h3>
+          <CardHeader><h3>Click below to join our hub !! </h3>
             <FormGroup row>
               <Col md={{ size: 7, offset: 2 }}>
                 <Button type="submit" color="warning" href="https://secure.everyaction.com/lTvAkbQpN0-QHg59pFUuMw2">
