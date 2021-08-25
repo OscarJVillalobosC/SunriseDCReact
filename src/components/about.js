@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle, } from 'reactstrap';
+import Information from './Information';
 
 
 class About extends Component {
@@ -32,7 +33,7 @@ class About extends Component {
 
     render() {
         const about = this.props.teams.map(team => {
-            return (
+            return ( 
                 <div className="col-md-5 m-1">
                     <Card onClick={() => this.onTeamSelect(team)}>
                         <CardImg width="100%" src={team.image} alt={team.name} />
@@ -45,6 +46,7 @@ class About extends Component {
         });
         return (
             <div className="container">
+                <Information/>
                 <div className="row">
                     {about}
                 </div>
